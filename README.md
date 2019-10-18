@@ -13,3 +13,11 @@
 
 https://en.wikipedia.org/wiki/List_of_S%26P_500_companies
 
+
+
+## Data Sources
+
+| Dataset                                                      | Description                             | end date |
+| ------------------------------------------------------------ | --------------------------------------- | -------- |
+| [WRDS-compstat](https://wrds-web.wharton.upenn.edu/wrds/query_forms/navigation.cfm?navId=83) | financial statements, stock price, etc. | 2019-06  |
+
