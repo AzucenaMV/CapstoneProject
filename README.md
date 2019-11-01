@@ -13,17 +13,23 @@
 
 ## Airline Companies
 
-Five Airline companies we take into consideration: 
+Five Airline companies we take into consideration are listed below
 
-| Symbol                                     | company name                                                 | sec cik    |
-| ------------------------------------------ | ------------------------------------------------------------ | ---------- |
-| [ALK](https://www.nyse.com/quote/XNYS:ALK) | [Alaska Air Group Inc](https://en.wikipedia.org/wiki/Alaska_Air_Group_Inc) | 0000766421 |
-| [AAL](http://www.nasdaq.com/symbol/aal)    | [American Airlines Group](https://en.wikipedia.org/wiki/American_Airlines_Group) | 0000006201 |
-| [DAL](https://www.nyse.com/quote/XNYS:DAL) | [Delta Air Lines Inc.](https://en.wikipedia.org/wiki/Delta_Air_Lines_Inc.) | 0000027904 |
-| [LUV](https://www.nyse.com/quote/XNYS:LUV) | [Southwest Airlines](https://en.wikipedia.org/wiki/Southwest_Airlines) | 0000092380 |
-| [UAL](http://www.nasdaq.com/symbol/ual)    | [United Airlines Holdings](https://en.wikipedia.org/wiki/United_Airlines_Holdings) | 0000100517 |
+We start building our model with **AAL**, the largest company w.r.t. market share:
 
-Reference: [List of SP500 Companies - Wikipedia](https://en.wikipedia.org/wiki/List_of_S%26P_500_companies)
+| Symbol                                      | company name                                                 | sec cik    |
+| ------------------------------------------- | ------------------------------------------------------------ | ---------- |
+| [ALK](https://www.nyse.com/quote/XNYS:ALK)  | [Alaska Air Group Inc](https://en.wikipedia.org/wiki/Alaska_Air_Group_Inc) | 0000766421 |
+| **[AAL](http://www.nasdaq.com/symbol/aal)** | [American Airlines Group](https://en.wikipedia.org/wiki/American_Airlines_Group) | 0000006201 |
+| [DAL](https://www.nyse.com/quote/XNYS:DAL)  | [Delta Air Lines Inc.](https://en.wikipedia.org/wiki/Delta_Air_Lines_Inc.) | 0000027904 |
+| [LUV](https://www.nyse.com/quote/XNYS:LUV)  | [Southwest Airlines](https://en.wikipedia.org/wiki/Southwest_Airlines) | 0000092380 |
+| [UAL](http://www.nasdaq.com/symbol/ual)     | [United Airlines Holdings](https://en.wikipedia.org/wiki/United_Airlines_Holdings) | 0000100517 |
+
+Reference: 
+
+[List of SP500 Companies - Wikipedia](https://en.wikipedia.org/wiki/List_of_S%26P_500_companies)
+
+[Domestic Market Share of Leading U.S. Airlines](https://www.statista.com/statistics/250577/domestic-market-share-of-leading-us-airlines/) 
 
 
 
