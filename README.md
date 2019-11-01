@@ -41,7 +41,16 @@ The price of a common share of stock in the company, as reported by the Nasdaq, 
 
 We pick **one** indicator under each category
 
-![](https://www2.deloitte.com/content/dam/insights/us/articles/5109_USEF_2019_Q3/figures/5109_fig18.png)
+|                                                   | Category          | Description |
+| ------------------------------------------------- | ----------------- | ----------- |
+| **Real GPD**                                      | GDP               |             |
+| **Consumer Price Index**                          | Prices            |             |
+| **Unemployment Rate**                             | Labor Markets     |             |
+| **Net Household Wealth**                          | Income and Wealth |             |
+| **Interest Rate on 30-year fixed-rate mortgates** | Housing           |             |
+| **Current Account Balance, share of GDP**         | Foreign Trade     |             |
+| **Yield on 10-year Treasury Note**                | Financial         |             |
+| **Federal  Budget Balance, share of GPD**         | Government        |             |
 
 Reference: [United States Economic Forecast - Deloitte](https://www2.deloitte.com/us/en/insights/economy/us-economic-forecast/united-states-outlook-analysis.html)
 
