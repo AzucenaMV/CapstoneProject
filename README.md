@@ -11,19 +11,21 @@
 
 
 
+
+
 ## Airline Companies
 
 Five Airline companies we take into consideration are listed below
 
-We start building our model with **AAL**, the largest company w.r.t. market share:
+We start building our model with **DAL**, one of the largest company w.r.t. market share:
 
-| Symbol                                      | company name                                                 | sec cik    |
-| ------------------------------------------- | ------------------------------------------------------------ | ---------- |
-| [ALK](https://www.nyse.com/quote/XNYS:ALK)  | [Alaska Air Group Inc](https://en.wikipedia.org/wiki/Alaska_Air_Group_Inc) | 0000766421 |
-| **[AAL](http://www.nasdaq.com/symbol/aal)** | [American Airlines Group](https://en.wikipedia.org/wiki/American_Airlines_Group) | 0000006201 |
-| [DAL](https://www.nyse.com/quote/XNYS:DAL)  | [Delta Air Lines Inc.](https://en.wikipedia.org/wiki/Delta_Air_Lines_Inc.) | 0000027904 |
-| [LUV](https://www.nyse.com/quote/XNYS:LUV)  | [Southwest Airlines](https://en.wikipedia.org/wiki/Southwest_Airlines) | 0000092380 |
-| [UAL](http://www.nasdaq.com/symbol/ual)     | [United Airlines Holdings](https://en.wikipedia.org/wiki/United_Airlines_Holdings) | 0000100517 |
+| Symbol                                         | company name                                                 | sec cik    |
+| ---------------------------------------------- | ------------------------------------------------------------ | ---------- |
+| [ALK](https://www.nyse.com/quote/XNYS:ALK)     | [Alaska Air Group Inc](https://en.wikipedia.org/wiki/Alaska_Air_Group_Inc) | 0000766421 |
+| [AAL](http://www.nasdaq.com/symbol/aal)        | [American Airlines Group](https://en.wikipedia.org/wiki/American_Airlines_Group) | 0000006201 |
+| **[DAL](https://www.nyse.com/quote/XNYS:DAL)** | [Delta Air Lines Inc.](https://en.wikipedia.org/wiki/Delta_Air_Lines_Inc.) | 0000027904 |
+| [LUV](https://www.nyse.com/quote/XNYS:LUV)     | [Southwest Airlines](https://en.wikipedia.org/wiki/Southwest_Airlines) | 0000092380 |
+| [UAL](http://www.nasdaq.com/symbol/ual)        | [United Airlines Holdings](https://en.wikipedia.org/wiki/United_Airlines_Holdings) | 0000100517 |
 
 Reference: 
 
@@ -33,11 +35,15 @@ Reference:
 
 
 
+
+
 ## Y vaiable
 
 **Stock Returns** 
 
 The price of a common share of stock in the company, as reported by the Nasdaq, American Stock Exchange, or New York Stock Exchange. If the market is open, the price is updated throughout the day. If the market closed, the price is the clossing price from the previous day.
+
+
 
 
 
