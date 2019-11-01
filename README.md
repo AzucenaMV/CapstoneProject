@@ -2,18 +2,18 @@
 
 ## Data Sources
 
-| Dataset                                                      | Description                                        | end date |
-| ------------------------------------------------------------ | -------------------------------------------------- | -------- |
-| [WRDS-Compustat](https://wrds-web.wharton.upenn.edu/wrds/query_forms/navigation.cfm?navId=83) |                                                    | 2019-06  |
-| [Compustat-Industry Specific Quarterly](https://wrds-web.wharton.upenn.edu/wrds/ds/compd/industry/quarterly.cfm?navId=83) | industry specific indicators                       | 2019-06  |
-| [Compustat-Fundamentals Quarterly](https://wrds-web.wharton.upenn.edu/wrds/ds/compd/fundq/index.cfm?navId=83) | Fundamentals (EPS, ) on financial statements       | 2019-06  |
-| [Compustat-Security Daily](https://wrds-web.wharton.upenn.edu/wrds/ds/compd/secd/index.cfm?navId=83) | stock price(low, high, open, close), volumes, etc. | 2019-10  |
+| Dataset                                                      | Description                                        | Frequency |
+| ------------------------------------------------------------ | -------------------------------------------------- | --------- |
+| [FRED](https://fred.stlouisfed.org)                          | Economic Indicators                                |           |
+| [Compustat-Industry Specific](https://wrds-web.wharton.upenn.edu/wrds/ds/compd/industry/quarterly.cfm?navId=83) | industry specific indicators                       | Quarterly |
+| [Compustat-Fundamentals](https://wrds-web.wharton.upenn.edu/wrds/ds/compd/fundq/index.cfm?navId=83) | Fundamentals (EPS, ) on financial statements       | Quarterly |
+| [Compustat-Security](https://wrds-web.wharton.upenn.edu/wrds/ds/compd/secd/index.cfm?navId=83) | stock price(low, high, open, close), volumes, etc. | Daily     |
 
 
 
-## SP500 Airline Companies
+## Airline Companies
 
-Five Airline companies taken into consideration: 
+Five Airline companies we take into consideration: 
 
 | Symbol                                     | company name                                                 | sec cik    |
 | ------------------------------------------ | ------------------------------------------------------------ | ---------- |
@@ -23,7 +23,7 @@ Five Airline companies taken into consideration:
 | [LUV](https://www.nyse.com/quote/XNYS:LUV) | [Southwest Airlines](https://en.wikipedia.org/wiki/Southwest_Airlines) | 0000092380 |
 | [UAL](http://www.nasdaq.com/symbol/ual)    | [United Airlines Holdings](https://en.wikipedia.org/wiki/United_Airlines_Holdings) | 0000100517 |
 
-Reference: https://en.wikipedia.org/wiki/List_of_S%26P_500_companies
+Reference: [List of SP500 Companies - Wikipedia](https://en.wikipedia.org/wiki/List_of_S%26P_500_companies)
 
 
 
@@ -37,7 +37,7 @@ The price of a common share of stock in the company, as reported by the Nasdaq, 
 
 ## X variables
 
-###1 Economic Indicators
+### 1 Economic Indicators
 
 We pick **one** indicator under each category
 
