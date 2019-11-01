@@ -11,19 +11,29 @@
 
 
 
+
+
 ## Airline Companies
 
-Five Airline companies we take into consideration: 
+Five Airline companies we take into consideration are listed below
 
-| Symbol                                     | company name                                                 | sec cik    |
-| ------------------------------------------ | ------------------------------------------------------------ | ---------- |
-| [ALK](https://www.nyse.com/quote/XNYS:ALK) | [Alaska Air Group Inc](https://en.wikipedia.org/wiki/Alaska_Air_Group_Inc) | 0000766421 |
-| [AAL](http://www.nasdaq.com/symbol/aal)    | [American Airlines Group](https://en.wikipedia.org/wiki/American_Airlines_Group) | 0000006201 |
-| [DAL](https://www.nyse.com/quote/XNYS:DAL) | [Delta Air Lines Inc.](https://en.wikipedia.org/wiki/Delta_Air_Lines_Inc.) | 0000027904 |
-| [LUV](https://www.nyse.com/quote/XNYS:LUV) | [Southwest Airlines](https://en.wikipedia.org/wiki/Southwest_Airlines) | 0000092380 |
-| [UAL](http://www.nasdaq.com/symbol/ual)    | [United Airlines Holdings](https://en.wikipedia.org/wiki/United_Airlines_Holdings) | 0000100517 |
+We start building our model with **DAL**, one of the largest company w.r.t. market share:
 
-Reference: [List of SP500 Companies - Wikipedia](https://en.wikipedia.org/wiki/List_of_S%26P_500_companies)
+| Symbol                                         | company name                                                 | sec cik    |
+| ---------------------------------------------- | ------------------------------------------------------------ | ---------- |
+| [ALK](https://www.nyse.com/quote/XNYS:ALK)     | [Alaska Air Group Inc](https://en.wikipedia.org/wiki/Alaska_Air_Group_Inc) | 0000766421 |
+| [AAL](http://www.nasdaq.com/symbol/aal)        | [American Airlines Group](https://en.wikipedia.org/wiki/American_Airlines_Group) | 0000006201 |
+| **[DAL](https://www.nyse.com/quote/XNYS:DAL)** | [Delta Air Lines Inc.](https://en.wikipedia.org/wiki/Delta_Air_Lines_Inc.) | 0000027904 |
+| [LUV](https://www.nyse.com/quote/XNYS:LUV)     | [Southwest Airlines](https://en.wikipedia.org/wiki/Southwest_Airlines) | 0000092380 |
+| [UAL](http://www.nasdaq.com/symbol/ual)        | [United Airlines Holdings](https://en.wikipedia.org/wiki/United_Airlines_Holdings) | 0000100517 |
+
+Reference: 
+
+[List of SP500 Companies - Wikipedia](https://en.wikipedia.org/wiki/List_of_S%26P_500_companies)
+
+[Domestic Market Share of Leading U.S. Airlines](https://www.statista.com/statistics/250577/domestic-market-share-of-leading-us-airlines/) 
+
+
 
 
 
@@ -35,13 +45,24 @@ The price of a common share of stock in the company, as reported by the Nasdaq, 
 
 
 
+
+
 ## X variables
 
 ### 1 Economic Indicators
 
 We pick **one** indicator under each category
 
-![](https://www2.deloitte.com/content/dam/insights/us/articles/5109_USEF_2019_Q3/figures/5109_fig18.png)
+|                                                   | Category          | Description |
+| ------------------------------------------------- | ----------------- | ----------- |
+| **Real GPD**                                      | GDP               |             |
+| **Consumer Price Index**                          | Prices            |             |
+| **Unemployment Rate**                             | Labor Markets     |             |
+| **Net Household Wealth**                          | Income and Wealth |             |
+| **Interest Rate on 30-year fixed-rate mortgates** | Housing           |             |
+| **Current Account Balance, share of GDP**         | Foreign Trade     |             |
+| **Yield on 10-year Treasury Note**                | Financial         |             |
+| **Federal  Budget Balance, share of GPD**         | Government        |             |
 
 Reference: [United States Economic Forecast - Deloitte](https://www2.deloitte.com/us/en/insights/economy/us-economic-forecast/united-states-outlook-analysis.html)
 
