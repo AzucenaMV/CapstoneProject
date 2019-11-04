@@ -72,7 +72,7 @@ Reference: [United States Economic Forecast - Deloitte](https://www2.deloitte.co
 
 |                                    | Description |
 | ---------------------------------- | ----------- |
-| **Avg Fuel Price / Gallon**        |             |
+| **Avg Fuel Price per Gallon**      |             |
 | **Available Seat Kilometers**      |             |
 | **Available Seat Miles (ASM)**     |             |
 | **Fuel Consumed**                  |             |
@@ -94,6 +94,19 @@ Reference: [Compustat - Industry Specific Quarterly - Airline]()
 
 ### 3 Fundamentals
 
+Used:
+
+| Name               | Column | Description                                                  |
+| ------------------ | ------ | ------------------------------------------------------------ |
+| **EPS**            | EPSFXQ | EPSFXQ -- Earnings Per Share (Diluted) - Excluding Extraordinary items |
+| **Revenue**        | REVTQ  | REVTQ -- Revenue - Total                                     |
+| **EPS Growth**     |        |                                                              |
+| **Revenue Growth** |        |                                                              |
+
+
+
+Reference:
+
 |                                | Description                                                  |
 | ------------------------------ | ------------------------------------------------------------ |
 | **Price/Earnings (P/E) Ratio** | A comparison of a company's current share price to its earnings per share during a specified time period. The higher the P/E Ratio, the more the market is willing to pay for each dollar of annual earnings. Companies with negative earnings do not have a P/E Ratio. |
@@ -103,7 +116,9 @@ Reference: [Compustat - Industry Specific Quarterly - Airline]()
 | **Revenue**                    | Total goods and/or services sold by a company (also referred to as Total Net Sales) during a specified time period. Revenue is a result of the normal operations of the company. In cases where a divestiture or sale has occurred, the effect of the transaction would also be reflected in revenue. |
 | **Revenue Growth**             | A measure (percent) of how much more (or less) the company has sold during a specified time period. |
 | **Return on Equity (ROE)**     | Return on Equity measures how well a company uses reinvested earnings to generate additional earnings. ROE is calculated by dividing a company's after-tax income by [Shareholder's Equity](https://www.fidelity.com//webcontent/ap010098-etf-content/19.10.0/help/research/learn_er_glossary_4.shtml#shareholdersequity) for a specified period, expressed as a percentage. |
-| **Return on Investment (ROI)** | Return on Investment measures how effectively a company uses its capital to generate profit. ROI is calculated by dividing income by common stock and preferred stock equity plus long-term debt over a specified time period. Time periods measured include: |
+| **Return on Investment (ROI)** | Return on Investment measures how effectively a company uses its capital to generate profit. ROI is calculsated by dividing income by common stock and preferred stock equity plus long-term debt over a specified time period. Time periods measured include: |
 
 Reference: [Industry Details - Fidelity]( https://eresearch.fidelity.com/eresearch/markets_sectors/sectors/industries.jhtml?tab=learn&industry=203020)
+
+
 
