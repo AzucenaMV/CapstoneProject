@@ -1,9 +1,5 @@
 getwd()
 
-install.packages('tidyr')
-install.packages('fmsb')
-install.packages('glmnet')
-install.packages('tidyr')
 library(glmnet)
 library(dplyr)
 library(tidyr)
@@ -13,10 +9,17 @@ library(fmsb)
 df <- read.csv('all_variables.csv')
 df <- df %>% drop_na()
 
+colnames(select(df, contains('ECON')))
+colnames(select(df, contains('AIR')))
+colnames(select(df, contains('OIL')))
+colnames(select(df, contains('CHEM')))
+colnames(select(df, contains('OTHERS')))
+
 # choose the target variable
-target = select(df, contains("TARGET")&contains('legacy')) 
+target = select(df, contains("TARGET")&contains('SPECIALTY')&-contains('NON')) 
 # locate indicators
-indicator = select(df, -contains("TARGET")&-contains("date"))
+indicator = select(df, -contains("TARGET")&-contains("date")&-contains("leadingInd|uS10|consumerOp"))
+
 
 ## 1 Remove Collinearity using VIF
 vif_func<-function(in_frame,thresh=10,trace=T,...){
@@ -65,12 +68,12 @@ vif_func<-function(in_frame,thresh=10,trace=T,...){
       if(vif_max<thresh) break
       
       if(trace==T){ #print output of each iteration
+        prmatrix(vif_vals,collab=c('var','vif'),rowlab=rep('',nrow(vif_vals)),quote=F)
+        
         cat('removed: ',vif_vals[max_row,1],vif_max,'\n')
         flush.console()
       }
-      
       in_dat<-in_dat[,!names(in_dat) %in% vif_vals[max_row,1]]
-      
     }
     
     return(names(in_dat))
@@ -87,7 +90,7 @@ indicator_filtered = indicator[cols]
 lassoreg<- glmnet(x=as.matrix(indicator_filtered),y=as.matrix(target), standardize=TRUE, intercept=FALSE, alpha=1)
 
 # get non-zero featuers
-myCoefs <- coef(lassoreg, s=1) # use regularization strength lambda=1
+myCoefs <- coef(lassoreg, s=0.1) # use regularization strength lambda=1
 myResults <- data.frame(
   features = myCoefs@Dimnames[[1]][ which(myCoefs != 0 ) ], #intercept included
   coefs    = myCoefs              [ which(myCoefs != 0 ) ]  #intercept included
@@ -95,4 +98,3 @@ myResults <- data.frame(
 myResults
 
 indicator_selected = df[myResults$features]
-
